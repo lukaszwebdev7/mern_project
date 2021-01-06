@@ -1,0 +1,87 @@
+.cooperation-container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 5rem auto;
+}
+
+.cooperation-text {
+    font-size: 1.8rem;
+    font-family: serif;
+    font-style: italic;
+    width: 40%;
+    height: 20rem;
+    line-height: 3rem;
+    margin-top: 2rem;
+    border-left: .2rem solid #011EFF;
+    padding-left: 1rem;
+}
+
+.cooperation-block {
+    margin-left: 2rem;
+}
+
+.cooperation-invit {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 3rem;
+    margin: 2rem 0 3rem 0;
+}
+
+.form-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.form-container input:focus {
+    outline: none;
+}
+
+.form-container i {
+    display: inline-block;
+    width: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: #011EFF;
+}
+
+textarea {
+    resize: none;
+    font-size: 2rem;
+    background-color: #f0f0f0;
+    outline-color: #011EFF;
+}
+
+@media (min-width: 1440px) {
+    .cooperation-container {
+        width: 80%;
+    }
+}
+
+.button-container {
+    display: flex;
+    width: 100%;
+}
+
+.trick-margin {
+    width: 3rem
+}
+
+.cooperation-button {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    color: #011EFF;
+    border: 1px solid #011EFF;
+    border-radius: 5%;
+    margin: 0 auto 0 0;
+    transition: .2s;
+}
+
+.cooperation-button:hover {
+    background-color: white;
+    color: #0b1fb6;
+}

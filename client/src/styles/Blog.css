@@ -1,0 +1,106 @@
+.blog-title {
+    text-align: center;
+    width: 18rem;
+    font-size: 5rem;
+    color:  #011EFF;
+    border: .2rem solid  #011EFF;
+    margin: 3rem auto;
+}
+
+.blog {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.posts-list {
+    max-width: 60%;
+}
+
+.list-container {
+    display: flex;
+    flex: 1 1 120rem;
+    justify-content: center;
+    margin-top: 4rem;
+
+}
+
+.list-container div:first-child {
+    width: 15%;
+}
+
+.list-container div:last-child {
+    width: 85%;
+    margin-left: 1rem;
+}
+
+.list-post-title {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.post-list-image-container {
+    position: relative;
+    width: 12rem;
+    height: 12rem;
+    overflow: hidden;
+}
+
+.post-list-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.post-content {
+    display: block;
+    height: 4rem;
+    overflow: hidden;
+}
+
+.more {
+    cursor: pointer;
+    padding: .7rem 1.5rem;
+    margin-top: .5rem;
+    background-color: #74b2f7;
+    border-style: none;
+    border-radius: 5%;
+    color: white;
+    transition: .2s;
+}
+
+.more:hover {
+    background-color: #1bc3dd;
+}
+
+.blog-aside {
+    width: 15rem;
+    height: 60vh;
+    background-color: #f0f0f0;
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+
+.blog-aside div {
+    padding: .5rem 0 0 .5rem;
+    font-weight: bold;
+}
+
+.blog-aside ul {
+    list-style: none;
+    padding: 0 .5rem;
+}
+
+.blog-aside ul li {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.blog-aside ul li:nth-child(1) {
+    margin-top: 1rem;
+}

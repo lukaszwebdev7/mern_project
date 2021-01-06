@@ -1,0 +1,45 @@
+.post-container {
+    width: 90rem;
+    margin: 5rem auto 0 auto;
+}
+
+.post-image-container {
+    position: relative;
+    width: 90rem;
+    height: 40rem;
+    overflow: hidden;
+}
+
+.post-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.post div:nth-child(2) {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+.post div:nth-child(3) {
+    margin-bottom: 3rem;
+}
+
+.post-video {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 4rem 0;
+}
+
+@media (min-width: 1440px) {
+    .post-container {
+        width: 110rem;
+    }
+    .post-image-container {
+        width: 110rem;
+        height: 50rem;
+    }
+}

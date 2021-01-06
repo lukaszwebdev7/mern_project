@@ -1,0 +1,59 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.contact-container-div {
+    width: 40rem;
+    height: 50rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.contact-container div ul {
+    list-style: none;
+}
+
+.contact-container div ul li {
+    margin-bottom: 4rem;
+}
+
+.DOM-name {
+    font-weight: bold;
+    font-size: 1.7rem;
+    letter-spacing: .1rem;
+}
+
+.contact-container div ul li i {
+    display: inline-block;
+    width: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: #011EFF;
+}
+
+.contact-header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.span-line {
+    display: block;
+    width: 23%;
+    height: .3rem;
+    background-color: #011EFF;
+    margin-bottom: 3rem;
+}
+
+.open-hours div {
+    display: flex;
+}
+
+.open-hours div p:first-child {
+    width: 50%;
+    margin-bottom: 1rem;
+}

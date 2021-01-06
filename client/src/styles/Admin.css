@@ -1,0 +1,18 @@
+.post-delete {
+    margin-top: 10rem;
+}
+
+.post-delete p {
+    font-weight: bold;
+}
+
+.message-container, .message-delete {
+    border: 1px solid #000000;
+    width: 60rem;
+    margin-bottom: 2rem;
+}
+
+.animal-remove {
+    font-weight: bold;
+    margin-top: 10rem;
+}

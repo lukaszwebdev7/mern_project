@@ -1,0 +1,38 @@
+.section-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    overflow: hidden;
+}
+
+.multi-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 70%;
+    background-color: #FCFDF8;
+}
+
+.multi-text p {
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-family: serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.multi-text img {
+    border-radius: 20%;
+    height: 10rem;
+    margin-top: 3rem;
+}
+
+
+@media (min-width: 1440px) {
+    .multi-text p {
+        font-size: 6rem;
+    }
+}

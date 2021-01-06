@@ -1,0 +1,54 @@
+.before-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+}
+
+.before-links div {
+    font-size: 8rem;
+    font-weight: bold;
+}
+
+nav {
+    height: 20vh;
+}
+
+.nav-details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    text-align: center;
+
+}
+
+.nav-details li {
+    display: inline-block;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+}
+
+.active {
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+    letter-spacing: .2rem;
+    line-height: 8vh;
+
+}
+
+.active:hover {
+    border-bottom: .2rem solid #011EFF;
+    transition: .3s;
+}
+
+.nav-bottom-line {
+    height: .2rem;
+    background-color: #f0f0f0;
+    margin-top: 4rem;
+}
+
+.color-active {
+    color: #011EFF;
+}

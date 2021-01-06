@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* margin-top: 1rem; */
+}
+
+.header-image {
+    height: 70rem;
+    width: 80%;
+    background-image: url('https://files.tinypic.pl/i/01008/wqy7bo1pzxxl.jpg');
+    background-position: center;
+    border-image-repeat: no-repeat;
+}
+
+@media (min-width: 1440px) {
+    .header-image {
+        background-image: url('https://files.tinypic.pl/i/01008/npaoe8k5qopr.jpg');
+    }
+}
