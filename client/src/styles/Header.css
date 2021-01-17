@@ -9,13 +9,15 @@
 .header-image {
     height: 70rem;
     width: 80%;
-    background-image: url('https://files.tinypic.pl/i/01008/wqy7bo1pzxxl.jpg');
+    background-image: url('https://images91.fotosik.pl/463/5db385064b6a2d11.jpg');
     background-position: center;
     border-image-repeat: no-repeat;
 }
 
 @media (min-width: 1440px) {
     .header-image {
-        background-image: url('https://files.tinypic.pl/i/01008/npaoe8k5qopr.jpg');
+        background-image: url('https://images91.fotosik.pl/463/5db385064b6a2d11.jpg');
     }
 }
+
+
